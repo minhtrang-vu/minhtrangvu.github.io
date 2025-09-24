@@ -1,48 +1,57 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Your Name — Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoang Minh Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-  <header class="hero">
-    <div class="container">
-      <h1>Hi — mình là <span class="name">Your Name</span></h1>
-      <p class="tagline">Student • Developer • Designer</p>
-      <p><a href="#projects" class="btn">Xem project</a></p>
+  <div class="container">
+    <!-- Left Column -->
+    <div class="left">
+      <img src="avatar-left.jpg" alt="Avatar" class="avatar-small">
+      <h2>Hoang Minh</h2>
+      <p>Dedicated to strategic and professional working experience. Striving for excellence.</p>
+      <a href="cv.pdf" class="btn">Download CV</a>
+
+      <div class="skills">
+        <h3>Skills</h3>
+        <div class="icons">
+          <i class="fa-brands fa-adobe"></i>
+          <i class="fa-brands fa-figma"></i>
+          <i class="fa-brands fa-microsoft"></i>
+          <i class="fa-solid fa-chart-column"></i>
+        </div>
+      </div>
     </div>
-  </header>
 
-  <main class="container">
-    <section id="about">
-      <h2>About me</h2>
-      <p>Viết vài câu ngắn về bản thân: học gì, thích làm gì, muốn làm công việc nào…</p>
-    </section>
+    <!-- Middle Column -->
+    <div class="middle">
+      <img src="avatar-main.jpg" alt="Main Portrait" class="avatar-large">
+      <h1>Hoang Minh</h1>
+      <div class="btn-group">
+        <a href="#projects" class="btn yellow">Projects</a>
+        <a href="#experience" class="btn yellow">Experience</a>
+      </div>
+    </div>
 
-    <section id="projects">
-      <h2>Projects</h2>
-      <ul class="projects">
-        <li>
-          <h3>Project A</h3>
-          <p>Mô tả ngắn + <a href="#">link</a></p>
-        </li>
-        <li>
-          <h3>Project B</h3>
-          <p>Mô tả ngắn + <a href="#">link</a></p>
-        </li>
-      </ul>
-    </section>
+    <!-- Right Column -->
+    <div class="right">
+      <h2>Hoang Minh Nguyen - <span>Marketing Student</span></h2>
+      <p>Located in Hanoi, I have multiple media skills including photography, videography, and graphic design with several marketing projects experience.</p>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
-    </section>
-  </main>
+      <div class="socials">
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-google"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+      </div>
 
-  <footer class="footer">
-    <p>© 2025 Your Name — <a href="https://github.com/your-username">GitHub</a></p>
-  </footer>
+      <img src="avatar-side.jpg" alt="Camera pose" class="avatar-side">
+      <p>Please send me messages on these social channels, or my email and I’ll answer you.</p>
+      <a href="mailto:you@example.com" class="btn yellow">Contact Me</a>
+    </div>
+  </div>
 </body>
 </html>
